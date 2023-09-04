@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChatGptApi</name>
+    </assembly>
+    <members>
+        <member name="M:IntegrationsApi.Controllers.ChatGptController.SendMessage(System.String)">
+            <summary>
+            Send a prompt to ChatGPT API.
+            </summary>
+            <param name="prompt">The prompt message to send.</param>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.GithubController.GetUser(System.String)">
+            <summary>
+            Get user data from Github by its username
+            </summary>
+            <param name="prompt">The prompt message to send.</param>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.GithubController.GetUserAndRepoCommitsAsync(System.String,System.String)">
+            <summary>
+            Get user and repo commits from Github by its username and repo
+            </summary>
+            <param name="prompt">The prompt message to send.</param>
+        </member>
+    </members>
+</doc>

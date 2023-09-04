@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntegrationsApi</name>
+    </assembly>
+    <members>
+        <member name="M:IntegrationsApi.Controllers.AuthController.Register(IntegrationsApi.Models.UserDto)">
+            <summary>
+            Validate user credentials and data to register and access the token
+            </summary>
+            <param name="userDto">User data DTO to validate and register</param>
+            <returns></returns>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.AuthController.Login(IntegrationsApi.Models.UserDto)">
+            <summary>
+            Validate user credentials to access the token
+            </summary>
+            <param name="userDto">User data DTO to validate and login></param>
+            <returns></returns>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.AuthController.Get">
+            <summary>
+            Gets all registered users in database
+            </summary>
+            <param name="userDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.AuthController.Post(IntegrationsApi.Models.User)">
+            <summary>
+            Creates a new user into database
+            </summary>
+            <param name="userDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.ChatGptController.SendMessage(System.String)">
+            <summary>
+            Send a prompt to ChatGPT API
+            </summary>
+            <param name="prompt">The prompt message to send</param>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.GithubController.GetUser(System.String)">
+            <summary>
+            Get user data from Github by its username
+            </summary>
+            <param name="username">The Github username</param>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.GithubController.GetUserAndRepoCommitsAsync(System.String,System.String)">
+            <summary>
+            Get user and repo commits from Github by its username and repo
+            </summary>
+            <param name="username">The Github username</param>
+            <param name="repo">The Github repo</param>
+        </member>
+        <member name="M:IntegrationsApi.Controllers.SworkzController.GetSworkzCareers">
+            <summary>
+            Get all careers from Sworkz website
+            </summary>
+        </member>
+    </members>
+</doc>
